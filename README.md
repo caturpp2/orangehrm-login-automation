@@ -1,26 +1,24 @@
 # OrangeHRM Login Automation
 
-## Framework
-
-- Cypress
+## Tech Stack
+- Cypress 15
 - JavaScript
+- Node.js
 
-## Website
+## Test Scenario
 
-https://opensource-demo.orangehrmlive.com
+### Login Automation
+- Valid Login
+- Invalid Username
+- Invalid Password
+- Empty Username
+- Empty Password
+- Empty Credential
+- Logout
+- Login with Cypress Intercept
 
-## Total Test Case
+## Running
 
-12 Test Case
-
-## Cara Menjalankan
-
+```bash
 npm install
-
 npx cypress open
-
-atau
-
-npx cypress run
-
-Semua test Passed.
